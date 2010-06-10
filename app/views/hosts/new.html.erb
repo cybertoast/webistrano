@@ -5,6 +5,10 @@
     <b>Name (DNS name or IP address)</b><br />
     <%= f.text_field :name, :style => 'width: 330px' %>
   </p>
+  <p>
+    <b>Description</b><br />
+    <%= f.text_area :description, :style => 'width: 330px', :rows => 5 %>
+  </p>
 
   <%= link_to 'Back to hosts', hosts_path, :class => 'arrow_link ontheright', :style => 'margin-right: 330px' %>
 
